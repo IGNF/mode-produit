@@ -36,7 +36,8 @@
     "ciblesPrioritaires": null,
     "objectifs1an": null,
     "image": null,
-    "accompagneModeProduit": false
+    "accompagneModeProduit": false,
+    "accompagneLean": false
   },
   {
     "slug": "portail-cartographique-des-energies-renouvelables",
@@ -67,7 +68,8 @@
     "ciblesPrioritaires": null,
     "objectifs1an": null,
     "image": null,
-    "accompagneModeProduit": false
+    "accompagneModeProduit": false,
+    "accompagneLean": false
   },
   {
     "slug": "bd-france",
@@ -118,7 +120,8 @@
     "ciblesPrioritaires": null,
     "objectifs1an": null,
     "image": null,
-    "accompagneModeProduit": false
+    "accompagneModeProduit": false,
+    "accompagneLean": false
   },
   {
     "slug": "geodesie",
@@ -153,7 +156,8 @@
     "ciblesPrioritaires": "- Gestionnaires d'information géographique : IGN, CRIG,  collectivités territoriales​\n- Gestionnaires de réseaux : EDF, SNCF, VNF, CNR, RTE​\n- Acteurs publics de la surveillance du territoire : BRGM, Shom, Cerema, Ineris​",
     "objectifs1an": "​- Infrastructure RGP compatible avec les standards européens et internationaux​\n- Nouvelle réalisation de la référence géométrique RGF93 calculée avec Galiléo​​\n- POC de détermination des altitudes européennes sur le territoire​\n- Conclusion d'une étude sur la dématérialisation de la référence verticale​\n- Plan de déploiement de la nouvelle infrastructure géodésique fondamentale​\n- Mise en place de la marque collective de réseau \"géodésie\"​\n- Intégrer l'offre géodésie/métrologie dans l'accord cadre IGN-Défense​\n- Engager l'évaluation de l'apport de l'InSAR à la métrologie​",
     "image": null,
-    "accompagneModeProduit": false
+    "accompagneModeProduit": false,
+    "accompagneLean": false
   },
   {
     "slug": "space-reference-points",
@@ -184,7 +188,8 @@
     "ciblesPrioritaires": "Dga​\n\nProspects d'airbus ( international)​",
     "objectifs1an": "Première année d’étude de la SRPNG pour faire évoluer la base afin de répondre aux nouveaux besoins de la DGA​\n\nNégociation des redevances avec ADS pour ce nouveau produit​\n\nInitier la mise en place d’une chaine industrielle de production (presta MALT) pour préparer la production SRPNG mondiale​\n\nMaintenir en conditions opérationnelle la base pour exploitation dans GS2​\n\n​\n\nIntégration de la SRP dans le segment sol IRIS ​\n\nIntégration de la SRP dans le segment sol PNEO NEXT et CO3D​",
     "image": null,
-    "accompagneModeProduit": false
+    "accompagneModeProduit": false,
+    "accompagneLean": false
   },
   {
     "slug": "bdortho-ortho-sat",
@@ -215,7 +220,8 @@
     "ciblesPrioritaires": "Producteur de données interne IGN - mise à jour des référentiels produits par l'IGN ​\ndans le cadre de politiques publiques nationales​\n\nProducteur de données externe IGN - appui aux politiques publiques locales​\n\nGéomaticien / Analyste de données - appui aux politiques publiques locales​",
     "objectifs1an": "Objectifs : ​\n​\n\nBasculer vers la nouvelle BD ORTHO​\n\nDéployer un programme de MAJ PCRS mutualisé avec celui de la BD ORTHO​\n\nStabiliser l'offre ORTHO-SAT Pléiades Neo (cadre & spécifications)​\n\n​\n\nEnjeux : ​\n\n​\n\nPoser une gouvernance inspirée de la méthode produit avec des rôles / périmètres clarifiés autour de l'offre en imagerie​\n\nEtudier les modalités de mise en place d'une offre ORTHO-SAT CO3D en remplacement de l'offre ORTHO-SAT Pléiades actuelle (coordination avec les actions pour la défense ?).​\n\nOptimiser nos capacités d'acquisition & de production​\n\nRemplacement des capteurs – Assurer la pérennité de nos capacités d'acquisition​",
     "image": null,
-    "accompagneModeProduit": false
+    "accompagneModeProduit": false,
+    "accompagneLean": false
   },
   {
     "slug": "pcrs",
@@ -246,7 +252,8 @@
     "ciblesPrioritaires": "– Départements au programme d’acquisition BDOrtho ​",
     "objectifs1an": "– Valider la faisabilité technique du PCRS 8cm et son acceptation par les partenaires​\n\n​\n\n– Basculer quelques acquisitions 20 cm vers du 8 cm ​\n\n​\n\n– Préparer un programme de basculement plus ambitieux pour 2028​",
     "image": null,
-    "accompagneModeProduit": false
+    "accompagneModeProduit": false,
+    "accompagneLean": false
   },
   {
     "slug": "lidarhd",
@@ -272,7 +279,8 @@
     "ciblesPrioritaires": "ONF​\n\nDGPR​\n\nRégions​",
     "objectifs1an": "Définir et valider la stratégie de revisite du territoire en LiDAR HD​\n\nFaire contractualiser des commanditaires​\n\nPlanifier et organiser la revisite​\n\nRedéfinir le qui fait quoi​",
     "image": null,
-    "accompagneModeProduit": false
+    "accompagneModeProduit": false,
+    "accompagneLean": false
   },
   {
     "slug": "france-relief",
@@ -303,7 +311,8 @@
     "ciblesPrioritaires": "Acteurs sur la communauté LiDAR HD ​\n\nDREAL / DDT / DGPR​\n\nSDIS / Collectivités​\n\nBureaux d'études ​",
     "objectifs1an": "Clarifier le discours auprès des usagers et commanditaires LidAR sur France Relief et son articulation avec la MAJ LiDAR  ​\n\n​\n\nAssurer une bonne articulation avec la gouvernance des acquisitions et productions 3D​\n\n​\n\nInitier une gouvernance produit via la communauté LiDAR HD ​\n\n​\n\nPublier  d'ici fin 2027 les premières zones France Relief initialisées ​",
     "image": null,
-    "accompagneModeProduit": false
+    "accompagneModeProduit": false,
+    "accompagneLean": false
   },
   {
     "slug": "geosocle-2",
@@ -338,7 +347,8 @@
     "ciblesPrioritaires": "DGA et autres acteurs Défense​\nGEOMAPS​",
     "objectifs1an": "Avenant n°2 réintégrant la source image CO3D​\n\nFinir la production prévue en TOP3 et démarrer celle de la TOP4​\n\nMettre en place la filière de production CO3D et initier les premières productions avec cette source​\n\n​Produire la SRP NG si actée​",
     "image": null,
-    "accompagneModeProduit": false
+    "accompagneModeProduit": false,
+    "accompagneLean": false
   },
   {
     "slug": "hub-des-sources",
@@ -369,7 +379,8 @@
     "ciblesPrioritaires": "Utilisateur interne : Développeurs et ingénieur en Machine Learning​\n\nUtilisateur externe : Géomaticien​\n\nUtilisateur externe : Développeurs et ingénieur en Machine Learning​",
     "objectifs1an": "### Objectifs 2027 :​\n- **Interne** : Enrichissement en sources, élargissement des fonctionnalités pour faciliter l’intégration dans les chaînes de traitement​\n- **Interne avec données externe** : MVP des premières briques d'interconnexion entre Geodes et Cartes.gouv et trouver un modèle de gouvernance​\n- **Externe** : Développer un MVP pour les utilisateurs externes en s'appuyant sur cartes.gouv et la Geoplateforme​\n\n### Enjeux 2027​\n\n- Simplifier l'accès à la donnée pour les développeurs​\n- Renforcer l'interopérabilité entre Geodes et la Geoplateforme​\n- Mutualiser certains développements entre Data Terra et IGN​\n- Positionner l'IGN comme point d'entrée de référence pour les données d'observation de la Terre pour les collectivités territoriales sur le territoire national​",
     "image": null,
-    "accompagneModeProduit": false
+    "accompagneModeProduit": false,
+    "accompagneLean": false
   },
   {
     "slug": "panoramax",
@@ -404,6 +415,7 @@
     "ciblesPrioritaires": "Les collectivités​\n\nLes opérateurs de l'Etat​\n\nL'international​",
     "objectifs1an": "Plusieurs instances publiques en France​\n\nContinuer de déployer le commun (national et international)​\n\nPlus de données sémantiques​\n\nUne fondation opérationnelle​\n\nPoursuivre le travail fait avec les éditeurs de logiciels SIG​",
     "image": null,
-    "accompagneModeProduit": false
+    "accompagneModeProduit": false,
+    "accompagneLean": false
   }
 ]

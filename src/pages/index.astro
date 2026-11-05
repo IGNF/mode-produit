@@ -6,7 +6,8 @@ import { LIENS } from "../lib/liens";
 // Ordre de première apparition (= ordre des lignes dans la table Produits sur
 // Grist, où les produits sont groupés par offre), pas un tri alphabétique.
 const offres = [...new Set(produits.map((p) => p.offre).filter(Boolean))];
-const nbAccompagnes = produits.filter((p) => p.accompagneModeProduit).length;
+const estAccompagne = (p: (typeof produits)[number]) => p.accompagneModeProduit || p.accompagneLean;
+const nbAccompagnes = produits.filter(estAccompagne).length;
 
 const DIACRITICS = /[̀-ͯ]/g;
 
@@ -82,7 +83,7 @@ function searchIndex(p: (typeof produits)[number]) {
           {nbAccompagnes > 0 && (
             <label class="filter-check">
               <input type="checkbox" id="accompagne-filter" />
-              Uniquement les produits accompagnés par le collectif Mode Produit ({nbAccompagnes})
+              Uniquement les produits accompagnés (Mode Produit ou Lean) ({nbAccompagnes})
             </label>
           )}
         </div>
@@ -97,7 +98,7 @@ function searchIndex(p: (typeof produits)[number]) {
           class="product-item"
           data-offre={p.offre}
           data-search={searchIndex(p)}
-          data-accompagne={p.accompagneModeProduit ? "1" : undefined}
+          data-accompagne={estAccompagne(p) ? "1" : undefined}
         >
           <article class="card">
             {p.image && (
@@ -113,8 +114,15 @@ function searchIndex(p: (typeof produits)[number]) {
                 <a href={`${import.meta.env.BASE_URL}produits/${p.slug}/`}>{p.nom}</a>
               </h2>
               <p class="card__desc">{p.promesse || p.propositionValeur || "Description à venir."}</p>
-              {p.accompagneModeProduit && (
-                <p class="badge-mp card__badge" title="Accompagné par le collectif Mode Produit">Accompagné Mode Produit</p>
+              {estAccompagne(p) && (
+                <p class="card__badges">
+                  {p.accompagneModeProduit && (
+                    <span class="badge-mp card__badge" title="Accompagné par le collectif Mode Produit">Accompagné Mode Produit</span>
+                  )}
+                  {p.accompagneLean && (
+                    <span class="badge-mp badge-mp--lean card__badge" title="Accompagné sur le mode Lean">Accompagné Lean</span>
+                  )}
+                </p>
               )}
               {p.derniereMiseAJour && (
                 <p class="card__meta">Fiche mise à jour le {p.derniereMiseAJour.trim()}</p>
