@@ -67,6 +67,18 @@ DATE_FIELDS = {"Dernière mise à jour"}
 ACCOMPAGNE_COL_ID = "Accompagne_par_le_collectif_Mode_Produit"
 
 
+def accompagne_col_ids(label_to_column: dict) -> list:
+    """Colonnes cochant la pastille « accompagné » : celle du collectif Mode
+    Produit, plus toute colonne « accompagné … lean » (ajoutée par l'équipe,
+    colId inconnu d'avance, d'où la recherche sans accents ni casse)."""
+    ids = [ACCOMPAGNE_COL_ID]
+    for label, col in label_to_column.items():
+        key = slugify(f"{label} {col['colId']}")
+        if "accompagn" in key and "lean" in key and col["colId"] not in ids:
+            ids.append(col["colId"])
+    return ids
+
+
 def is_truthy(v) -> bool:
     """Case à cocher Grist (bool), ou valeur texte/choix du type "Oui"."""
     if isinstance(v, bool):
@@ -352,6 +364,8 @@ def main(out_path: str):
     base_url = os.environ.get("GRIST_BASE_URL", "https://grist.numerique.gouv.fr").rstrip("/")
 
     label_to_column = build_label_to_column(base_url, doc_id, table, api_key)
+    accompagne_ids = accompagne_col_ids(label_to_column)
+    print(f"Colonnes « accompagné » : {accompagne_ids}")
 
     missing = [label for label in LABEL_TO_KEY if label not in label_to_column]
     if missing:
@@ -399,7 +413,7 @@ def main(out_path: str):
             product[key] = offre if key == "offre" else get(label, fields)
         product["image"] = resolve_image(fields, label_to_column, slug, base_url, doc_id, api_key)
         product["equipe"] = team_by_product.get(record["id"], [])
-        product["accompagneModeProduit"] = is_truthy(fields.get(ACCOMPAGNE_COL_ID))
+        product["accompagneModeProduit"] = any(is_truthy(fields.get(c)) for c in accompagne_ids)
 
         products.append(product)
 

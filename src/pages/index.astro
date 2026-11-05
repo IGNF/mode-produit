@@ -108,14 +108,14 @@ function searchIndex(p: (typeof produits)[number]) {
               />
             )}
             <div class="card__body">
-              {p.accompagneModeProduit && (
-                <p class="badge-mp card__badge" title="Accompagné par le collectif Mode Produit">Accompagné Mode Produit</p>
-              )}
               {p.offre && <p class="card__offre">{p.offre}</p>}
               <h2 class="card__title">
                 <a href={`${import.meta.env.BASE_URL}produits/${p.slug}/`}>{p.nom}</a>
               </h2>
               <p class="card__desc">{p.promesse || p.propositionValeur || "Description à venir."}</p>
+              {p.accompagneModeProduit && (
+                <p class="badge-mp card__badge" title="Accompagné par le collectif Mode Produit">Accompagné Mode Produit</p>
+              )}
               {p.derniereMiseAJour && (
                 <p class="card__meta">Fiche mise à jour le {p.derniereMiseAJour.trim()}</p>
               )}
