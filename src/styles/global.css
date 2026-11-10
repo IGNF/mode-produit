@@ -996,6 +996,44 @@ a.badge-mp--lean:hover {
   margin: 0.5rem auto 1.5rem;
 }
 
+/* ---------- Contenu Markdown (sections des fiches produit) ---------- */
+
+.prose--fiche > :last-child {
+  margin-bottom: 0;
+}
+
+.prose--fiche p {
+  margin-bottom: 0.75rem;
+}
+
+.prose--fiche ul,
+.prose--fiche ol {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+}
+
+.prose--fiche li {
+  margin: 0.4rem 0;
+  padding-left: 0.25rem;
+}
+
+.prose--fiche li::marker {
+  color: var(--primary);
+}
+
+.prose--fiche ol li::marker {
+  font-weight: 700;
+}
+
+.prose--fiche .list-label {
+  margin: 1.25rem 0 0.25rem;
+  font-weight: 600;
+}
+
+.prose--fiche > .list-label:first-child {
+  margin-top: 0;
+}
+
 /* ---------- Agenda ---------- */
 
 .agenda-heading {
