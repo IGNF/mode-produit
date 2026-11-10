@@ -794,6 +794,42 @@ a.badge-mp--lean:hover {
   color: var(--ink-soft);
 }
 
+/* Cartes Ressources (page Le mode produit) : colonne à gauche avec les
+   courbes de niveau du site et une icône dans une pastille blanche. */
+.card--ressource {
+  flex-direction: row;
+}
+
+.card__visuel {
+  display: grid;
+  flex: 0 0 5.5rem;
+  place-items: center;
+  background: var(--primary-light) url("../assets/contours.svg") 75% center / cover no-repeat;
+  border-right: 1px solid var(--border);
+}
+
+.card--ressource:nth-child(1) .card__visuel { background-position: 57% center; }
+.card--ressource:nth-child(2) .card__visuel { background-position: 67% center; }
+.card--ressource:nth-child(3) .card__visuel { background-position: 79% center; }
+.card--ressource:nth-child(4) .card__visuel { background-position: 89% center; }
+.card--ressource:nth-child(5) .card__visuel { background-position: 97% center; }
+
+.card__icone {
+  display: grid;
+  place-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  color: var(--primary);
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(9, 22, 37, 0.1);
+}
+
+.card__icone svg {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
 /* ---------- Fiche produit ---------- */
 
 .product-layout {
