@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import produits from "../../data/produits.json";
+import { renderMarkdown } from "../../lib/markdown";
 
 export function getStaticPaths() {
   return produits.map((p) => ({
@@ -114,7 +115,7 @@ function serviceColor(service: string) {
         {contentSections.map((s) => (
           <section class="content-section" id={s.key}>
             <h2>{s.label}</h2>
-            <p class="prewrap">{s.value}</p>
+            <div class="prose prose--fiche" set:html={renderMarkdown(s.value)} />
           </section>
         ))}
         {contentSections.length === 0 && (
