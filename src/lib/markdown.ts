@@ -22,9 +22,17 @@ const ALLOWED_TAGS = [
   "img",
 ];
 
+// Une ligne courte placée juste avant une liste ("Indicateurs :", "Enjeux 2027")
+// joue le rôle d'intertitre : on la marque pour la styler comme telle.
+function markListLabels(html: string): string {
+  return html.replace(/<p>([^<]{1,80})<\/p>\n(?=<(?:ul|ol)>)/g, (match, text: string) =>
+    /:\s*$/.test(text) || !/[.!?…]\s*$/.test(text) ? `<p class="list-label">${text}</p>\n` : match,
+  );
+}
+
 export function renderMarkdown(input: string): string {
   const html = marked.parse(input, { async: false }) as string;
-  return sanitizeHtml(html, {
+  return markListLabels(sanitizeHtml(html, {
     allowedTags: ALLOWED_TAGS,
     allowedAttributes: {
       ...sanitizeHtml.defaults.allowedAttributes,
@@ -33,5 +41,5 @@ export function renderMarkdown(input: string): string {
     transformTags: {
       a: sanitizeHtml.simpleTransform("a", { target: "_blank", rel: "noopener noreferrer" }),
     },
-  });
+  }));
 }
