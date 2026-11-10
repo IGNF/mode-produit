@@ -61,7 +61,7 @@ Les données produits viennent du document Grist
 (table `Produits`). `src/data/produits.json` est **régénéré automatiquement
 à chaque déploiement** (voir `.github/workflows/deploy.yml`) :
 
-- déclenchement toutes les heures (`schedule: cron`), sur chaque push sur
+- déclenchement toutes les 10 minutes (`schedule: cron`), sur chaque push sur
   `main`, ou manuellement depuis l'onglet Actions du dépôt ;
 - le job récupère les enregistrements via l'API REST Grist
   (`scripts/grist_to_json.py`), régénère `produits.json`, puis build et
@@ -70,8 +70,11 @@ Les données produits viennent du document Grist
 
 Le site reste 100% statique (Astro `output: 'static'`, hébergement GitHub
 Pages) — c'est un *rebuild périodique*, pas du server-side rendering :
-les données affichées ont donc jusqu'à une heure de retard sur Grist, pas
-un accès temps réel à chaque visite. Pour du temps réel, il faudrait passer
+les données affichées ont donc environ 10 à 15 minutes de retard sur Grist
+(GitHub ne garantit pas l'heure exacte des tâches planifiées), pas un accès
+temps réel à chaque visite. Pour une mise à jour en 2-3 minutes, un webhook
+Grist peut déclencher le workflow via un petit relais détenant un jeton
+GitHub (Grist ne sait pas s'authentifier seul auprès de GitHub). Pour du temps réel, il faudrait passer
 Astro en mode `server` (SSR) sur un hébergeur qui exécute du Node (Vercel,
 Netlify, Cloudflare...) — GitHub Pages ne le permet pas.
 
