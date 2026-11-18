@@ -570,8 +570,8 @@
     "offre": "Observation du territoire",
     "promesse": "Produire pour la Défense des socles géographiques mondiaux de référence",
     "propositionValeur": "GEOSOCLE 2 approvisionne la Défense en données géographiques de référence mondiales (i.e. socles de calage d'images, d'altimétrie qualifiée de référence, de radiométrie, d'altimétrie pour l'orthorectification et modèles numériques fins MNS, MNT et MNH, MNS texturés)",
-    "problemes": "- volumes massifs de production à produire",
-    "solutions": "- Optimisation de l'acquisition des images source et des filières d'élaboration\n- Qualification indépendante par l'IGN et participation aux standards alliés",
+    "problemes": "- Volumes massifs à produire",
+    "solutions": "- Optimisation de l'acquisition des images source et des filières et outils d'élaboration\n- Qualification indépendante par l'IGN et participation aux standards alliés",
     "canauxDeploiement": "- Réunions contractuelles DGA\n- Réunions de RETEX",
     "impactIndicateurs": "- nombre de km² produits par an selon les chantiers, délais et priorités\n- retours des utilisateurs finaux",
     "positionnementEcosysteme": "Production à façon pour un client précis",
@@ -660,7 +660,7 @@
       },
       {
         "nom": "Paul Etienney",
-        "photo": "agents/agent-74.png",
+        "photo": null,
         "fonction": "Lead tech",
         "service": "Prestataire",
         "mail": "paul.etienney@beta.gouv.fr"
@@ -1488,8 +1488,8 @@
     "offre": "Observation du territoire",
     "promesse": "Caler des images satellites partout dans le monde avec une précision maitrisée et cohérente",
     "propositionValeur": "La SRP permet à nos utilisateurs du domaine de l’imagerie spatiale de garantir le positionnement absolu de leurs images",
-    "problemes": "1. Produit très technique nécessitant un certain niveau d’expertise en géométrie des images",
-    "solutions": "1. support apporté au cas par cas\n2. étude en cours pour évaluer la capacité du produit à évoluer pour répondre à de nouveaux besoins\n3. Communiquer, former et accompagner les utilisateurs",
+    "problemes": "- Produit très technique nécessitant un certain niveau d’expertise en géométrie des images",
+    "solutions": "- Support apporté au cas par cas\n- Etude en cours pour évaluer la capacité à répondre à de nouveaux besoins\n- Communiquer, former et accompagner les utilisateurs",
     "canauxDeploiement": "- Présentation du produit lors de conférences (Washington, Rome/ESA, ISPRS/communauté scientifique)\n- Réunions de RETEX \n- Sensibiliser les utilisateurs pour tirer pleinement profit des performances de la base",
     "impactIndicateurs": "- Performances\n- Statistiques d'usage",
     "positionnementEcosysteme": "- Utilisation par l'écosystème industriel et institutionnel\n- Coédition avec Airbus",
@@ -1503,7 +1503,7 @@
     "derniereMiseAJourPar": "vincent.caillard",
     "vision5ans": "- Amélioration des performances",
     "ciblesPrioritaires": "- Exploitation d'images calées en cohérence\n- Segments sols",
-    "objectifs1an": "- maintenance\n- premiers travaux d'études visant à l'amélioration des performances",
+    "objectifs1an": "- Maintenance de la base\n- Premiers travaux d'études visant à l'amélioration des performances",
     "image": "images/space-reference-points.png",
     "equipe": [
       {
