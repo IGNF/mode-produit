@@ -660,7 +660,7 @@
       },
       {
         "nom": "Paul Etienney",
-        "photo": null,
+        "photo": "agents/agent-74.png",
         "fonction": "Lead tech",
         "service": "Prestataire",
         "mail": "paul.etienney@beta.gouv.fr"
