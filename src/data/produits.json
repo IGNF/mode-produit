@@ -570,7 +570,7 @@
     "offre": "Observation du territoire",
     "promesse": "Produire pour la Défense des socles géographiques mondiaux de référence",
     "propositionValeur": "GEOSOCLE 2 approvisionne la Défense en données géographiques de référence mondiales (i.e. socles de calage d'images, d'altimétrie qualifiée de référence, de radiométrie, d'altimétrie pour l'orthorectification et modèles numériques fins MNS, MNT et MNH, MNS texturés)",
-    "problemes": "- délais de production ambitieux",
+    "problemes": "- volumes massifs de production à produire",
     "solutions": "- Optimisation de l'acquisition des images source et des filières d'élaboration\n- Qualification indépendante par l'IGN et participation aux standards alliés",
     "canauxDeploiement": "- Réunions contractuelles DGA\n- Réunions de RETEX",
     "impactIndicateurs": "- nombre de km² produits par an selon les chantiers, délais et priorités\n- retours des utilisateurs finaux",
@@ -585,7 +585,7 @@
     "derniereMiseAJourPar": "vincent.caillard",
     "vision5ans": "- Coproduire annuellement les produits prévus dans la directive de production actualisée\n- Intégrer de nouveaux capteurs",
     "ciblesPrioritaires": "- MINARM\n- GEOMAPS",
-    "objectifs1an": "Gestion de la production de la tranche en cours",
+    "objectifs1an": "Gestion optimale de la production de la tranche en cours",
     "image": "images/geosocle-2.png",
     "equipe": [
       {
@@ -1489,7 +1489,7 @@
     "promesse": "Caler des images satellites partout dans le monde avec une précision maitrisée et cohérente",
     "propositionValeur": "La SRP permet à nos utilisateurs du domaine de l’imagerie spatiale de garantir le positionnement absolu de leurs images",
     "problemes": "1. Produit très technique nécessitant un certain niveau d’expertise en géométrie des images",
-    "solutions": "1. support apporté au cas par cas\n2. étude en cours pour évaluer la capacité du produit à évoluer pour répondre à de nouveaux besoins\n3. Communiquer, former et accompagner la Défense et les industriels",
+    "solutions": "1. support apporté au cas par cas\n2. étude en cours pour évaluer la capacité du produit à évoluer pour répondre à de nouveaux besoins\n3. Communiquer, former et accompagner les utilisateurs",
     "canauxDeploiement": "- Présentation du produit lors de conférences (Washington, Rome/ESA, ISPRS/communauté scientifique)\n- Réunions de RETEX \n- Sensibiliser les utilisateurs pour tirer pleinement profit des performances de la base",
     "impactIndicateurs": "- Performances\n- Statistiques d'usage",
     "positionnementEcosysteme": "- Utilisation par l'écosystème industriel et institutionnel\n- Coédition avec Airbus",
