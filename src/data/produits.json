@@ -1107,7 +1107,7 @@
       },
       {
         "nom": "Marcellin Prudham",
-        "photo": "agents/agent-83.jpg",
+        "photo": null,
         "fonction": "Responsable produit",
         "service": "DP/SOC",
         "mail": "marcellin.prudham@ign.fr"
