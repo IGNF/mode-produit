@@ -942,7 +942,7 @@
     "vision5ans": null,
     "ciblesPrioritaires": "La cible prioritaire est le professionnel du service public non-géomaticien (services déconcentrés, établissements publics, collectivités)",
     "objectifs1an": null,
-    "image": null,
+    "image": "images/editeur-cartographique.png",
     "equipe": [
       {
         "nom": "Alexandre Heurion",
@@ -1012,7 +1012,7 @@
     "vision5ans": null,
     "ciblesPrioritaires": null,
     "objectifs1an": null,
-    "image": null,
+    "image": "images/voies-locales-en-commun.jpg",
     "equipe": [
       {
         "nom": "Sophie Clairet",
@@ -1054,7 +1054,7 @@
     "vision5ans": null,
     "ciblesPrioritaires": "100 sites publics les plus visités",
     "objectifs1an": null,
-    "image": null,
+    "image": "images/cartographie-numerique.png",
     "equipe": [
       {
         "nom": "Marianne Janowski",
