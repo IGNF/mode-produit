@@ -51,6 +51,10 @@ avec la même clé `GRIST_API_KEY` que les produits. Seuls les événements coch
 Sans clé, ou si Grist ne répond pas, la page affiche un message d'indisponibilité
 au lieu de faire échouer le build.
 
+L'agenda est inclus dans l'empreinte calculée par `scripts/empreinte_grist.py` :
+un événement ajouté ou modifié dans le Grist déclenche donc un redéploiement
+via `synchro-grist.yml`, comme un changement de fiche produit.
+
 Derrière le proxy IGN, le `fetch` de Node ignore `HTTPS_PROXY` : lancer le build
 local avec `node --use-env-proxy node_modules/astro/bin/astro.mjs build`.
 
