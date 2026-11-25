@@ -1651,7 +1651,7 @@
     "solutions": "- Mise à disposition des cartes et données IGN et partenaires (agriculture, forêts, patrimoine culturel…)\n- Valorisation de données locales agrégées au niveau national (animations locales, événements cultuels, idées rando)\n- Cartes, données et outils pour la pratique outdoor\n- Fonction comparer et POI évolution du territoire",
     "canauxDeploiement": "- Communiqués de presse, réseaux sociaux, webinaires dédiés, Newsletters Pro et GP, salons et évènements etc.\n- Campagne de comunication estivale (publicités media, influenceurs, etc.)\n- Prescripteurs appli (ex : ministère de la  Culture, ADN Tourisme, communauté Geotrek)",
     "impactIndicateurs": "Indicateurs stores :\n- Nombre d'utilisateurs : autour de 1,2 millions\n- Nombre de téléchargements : 3 millions\n\nIndicateurs Matomo (intégration fin octobre 2026) :\n- Visites uniques : entre 45K et 60K par jour\n- Temps moyens : 5 mn et 55 s\n\nMesures d'impact à définir",
-    "positionnementEcosysteme": null,
+    "positionnementEcosysteme": "- Sponsors, partenaires : Ministère de la Culture, Datatourisme, communauté Geotrek, FFR, Club Vosgien, Fondation Petzl, communauté OSM...\n- Concurrents : applis cartographiques du quotidien (Google Map, Apple Plan, Waze, ect.), appli outdoor",
     "siteWeb": null,
     "codeSource": null,
     "statistiquesUsage": null,
