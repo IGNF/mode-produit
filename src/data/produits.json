@@ -312,7 +312,7 @@
       },
       {
         "nom": "Luce Giovannetti",
-        "photo": null,
+        "photo": "agents/agent-49.jpg",
         "fonction": "Développeur",
         "service": "DSI/SDM",
         "mail": "luce.giovannetti@ign.fr"
@@ -1161,7 +1161,7 @@
     "slug": "offre-mobile-ign-pour-agents-terrains",
     "nom": "Offre mobile IGN pour agents terrains",
     "offre": "Compagnon des découvertes",
-    "promesse": "A poser en sortie d'investigation",
+    "promesse": "Promesse (à poser en sortie d'investigation)",
     "propositionValeur": "A poser en sortie d'investigation - Des données et des fonctionnalités pour accompagner les agents publics sur le terrain",
     "problemes": "Exemples sur la base des premiers entretiens : problèmes de couvertures réseaux même en ville, multiplicité des outils numériques, outils cartographiques trop experts, discontinuité de la chaine de travail entre le terrain et les outils métier, etc.",
     "solutions": "Exemples sur la base des premiers entretiens : accès hors ligne aux données et fonctionnalités, un outil adoptable par tout type d'utilisateur (du plus au moins expert), une solution interopérables, ect.",
@@ -1183,7 +1183,7 @@
     "equipe": [
       {
         "nom": "Luce Giovannetti",
-        "photo": null,
+        "photo": "agents/agent-49.jpg",
         "fonction": "Développeur",
         "service": "DSI/SDM",
         "mail": "luce.giovannetti@ign.fr"
@@ -1204,7 +1204,7 @@
       },
       {
         "nom": "Vincent de Oliveira",
-        "photo": null,
+        "photo": "agents/agent-64.webp",
         "fonction": "Développeur",
         "service": "DSI/SDM",
         "mail": "vincent.de-oliveira@ign.fr"
