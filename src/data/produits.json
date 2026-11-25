@@ -1162,11 +1162,11 @@
     "nom": "Offre mobile IGN pour agents terrains",
     "offre": "Compagnon des découvertes",
     "promesse": "A poser en sortie d'investigation",
-    "propositionValeur": "Des données et des fonctionnalités pour accompagner les agents publics sur le terrain",
+    "propositionValeur": "A poser en sortie d'investigation - Des données et des fonctionnalités pour accompagner les agents publics sur le terrain",
     "problemes": "Exemples sur la base des premiers entretiens : problèmes de couvertures réseaux même en ville, multiplicité des outils numériques, outils cartographiques trop experts, discontinuité de la chaine de travail entre le terrain et les outils métier, etc.",
     "solutions": "Exemples sur la base des premiers entretiens : accès hors ligne aux données et fonctionnalités, un outil adoptable par tout type d'utilisateur (du plus au moins expert), une solution interopérables, ect.",
     "canauxDeploiement": "- Chargés de relations interinstitutionnels\n- Délégués régionaux",
-    "impactIndicateurs": null,
+    "impactIndicateurs": "A définir en fonction du scenario retenu en sortie d'investigation",
     "positionnementEcosysteme": "Très probable que la solution s'inscrive dans un continuum GPF, cartes.gouv (continuité de l'offre et des services IGN)\nLes premiers entretiens mentionnent des solutions comme QField ou ODK pour collecter, gérer et exploiter des données terrains.",
     "siteWeb": null,
     "codeSource": null,
@@ -1190,7 +1190,7 @@
       },
       {
         "nom": "Gael Chumiatcher",
-        "photo": null,
+        "photo": "agents/agent-62.jpg",
         "fonction": "Responsable produit",
         "service": "DP/SOC",
         "mail": "gael.chumiatcher@ign.fr"
