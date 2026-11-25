@@ -1678,6 +1678,13 @@
         "fonction": "Développeur",
         "service": "DSI/SDM",
         "mail": "vincent.de-oliveira@ign.fr"
+      },
+      {
+        "nom": "Amaury Zarzelli",
+        "photo": "agents/agent-101.jpg",
+        "fonction": "Lead tech",
+        "service": "DSI/SDM",
+        "mail": "amaury.@ign.fr"
       }
     ],
     "accompagneModeProduit": false,
