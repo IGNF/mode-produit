@@ -1651,7 +1651,7 @@
     "solutions": "- Mise à disposition des cartes et données IGN et partenaires (agriculture, forêts, patrimoine culturel…)\n- Valorisation de données locales agrégées au niveau national (animations locales, événements cultuels, idées rando)\n- Cartes, données et outils pour la pratique outdoor\n- Fonction comparer et POI évolution du territoire",
     "canauxDeploiement": "- Communiqués de presse, réseaux sociaux, webinaires dédiés, Newsletters Pro et GP, salons et évènements etc.\n- Campagne de comunication estivale (publicités media, influenceurs, etc.)\n- Prescripteurs appli (ex : ministère de la  Culture, ADN Tourisme, communauté Geotrek)",
     "impactIndicateurs": "Indicateurs stores :\n- Nombre d'utilisateurs : autour de 1,2 millions\n- Nombre de téléchargements : 3 millions\n\nIndicateurs Matomo (intégration fin octobre 2026) :\n- Visites uniques : entre 45K et 60K par jour\n- Temps moyens : 5 mn et 55 s\n\nMesures d'impact à définir",
-    "positionnementEcosysteme": "- Sponsors, partenaires : Ministère de la Culture, Datatourisme, communauté Geotrek, FFR, Club Vosgien, Fondation Petzl, communauté OSM...\n- Concurrents : applis cartographiques du quotidien (Google Map, Apple Plan, Waze, ect.), appli outdoor",
+    "positionnementEcosysteme": "- Sponsors, partenaires : Ministère de la Culture, Datatourisme, communauté Geotrek, FFR, Club Vosgien, Fondation Petzl, communauté OSM...\n- Produits voisins : applis cartographiques du quotidien (Google Map, Apple Plan, Waze, ect.), appli outdoor (Visorando, Alltrails, Komoot, Geovelo, Strava,  ect.), appli patrimoine et culture, etc.",
     "siteWeb": null,
     "codeSource": null,
     "statistiquesUsage": null,
@@ -1664,7 +1664,22 @@
     "ciblesPrioritaires": "- Touristes, habitants locaux, pratiquants outdoor curieux et désireux de découvrir et comprendre le territoire ou souhaitant préparer et réaliser des sorties touristiques, culturelles ou de plein-air\n- Passionnés de cartographie / géographie\n- Citoyens sensibles à l’évolution du territoire et des enjeux climatiques",
     "objectifs1an": "-",
     "image": "images/application-cartes-ign.png",
-    "equipe": [],
+    "equipe": [
+      {
+        "nom": "Gael Chumiatcher",
+        "photo": "agents/agent-62.jpg",
+        "fonction": "Responsable produit",
+        "service": "DP/SOC",
+        "mail": "gael.chumiatcher@ign.fr"
+      },
+      {
+        "nom": "Vincent de Oliveira",
+        "photo": "agents/agent-64.webp",
+        "fonction": "Développeur",
+        "service": "DSI/SDM",
+        "mail": "vincent.de-oliveira@ign.fr"
+      }
+    ],
     "accompagneModeProduit": false,
     "accompagneLean": false
   }
