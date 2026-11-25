@@ -1178,7 +1178,7 @@
     "derniereMiseAJourPar": "gael.chumiatcher",
     "vision5ans": "Selon les résultats de l'investigation",
     "ciblesPrioritaires": "- Des agents qui interviennent régulièrement sur le terrain dans le cadre de leurs missions (inspection, contrôle, intervention, gestion d'espaces ou d'infrastructures, etc.) ;\n- Des agents qui ont besoin de données géographiques pour préparer leurs interventions, orienter leurs actions ou prendre des décisions opérationnelles.",
-    "objectifs1an": "Cadrage de l'investigation :\n- Connaitre précisémment les besoins et problèmes rencontrés par agents publics sur le terrain\n- Identifier si il existe des besoins suffisamment partagés pour justifier une solution IGN commune\n- Evaluer notre capacité à faire : ressources et les moyens pour construire et pérenniser la solution\n\n--> 1er trimestre 2027 : proposition de scénarios (solutions)",
+    "objectifs1an": "1er trimestre 2027 : proposition de scénarios (solutions) en conformité avec le cadrage de l'investigation :\n- Connaitre précisémment les besoins et problèmes rencontrés par agents publics sur le terrain\n- Identifier si il existe des besoins suffisamment partagés pour justifier une solution IGN commune\n- Evaluer notre capacité à faire : ressources et les moyens pour construire et pérenniser la solution",
     "image": "images/offre-mobile-ign-pour-agents-terrains.png",
     "equipe": [
       {
@@ -1638,6 +1638,33 @@
         "mail": "julia.herriot@ign.fr"
       }
     ],
+    "accompagneModeProduit": false,
+    "accompagneLean": false
+  },
+  {
+    "slug": "application-cartes-ign",
+    "nom": "Application Cartes IGN",
+    "offre": "Compagnon des découvertes",
+    "promesse": null,
+    "propositionValeur": null,
+    "problemes": null,
+    "solutions": null,
+    "canauxDeploiement": null,
+    "impactIndicateurs": null,
+    "positionnementEcosysteme": null,
+    "siteWeb": null,
+    "codeSource": null,
+    "statistiquesUsage": null,
+    "contact": null,
+    "raci": null,
+    "budget": null,
+    "derniereMiseAJour": "25-11-2026",
+    "derniereMiseAJourPar": "gael.chumiatcher",
+    "vision5ans": null,
+    "ciblesPrioritaires": null,
+    "objectifs1an": null,
+    "image": null,
+    "equipe": [],
     "accompagneModeProduit": false,
     "accompagneLean": false
   }
