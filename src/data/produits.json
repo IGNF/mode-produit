@@ -1685,6 +1685,13 @@
         "fonction": "Lead tech",
         "service": "DSI/SDM",
         "mail": "amaury.@ign.fr"
+      },
+      {
+        "nom": "Sonia Fernandes",
+        "photo": null,
+        "fonction": "UX/UI Designer",
+        "service": null,
+        "mail": "sonia.@ign.fr"
       }
     ],
     "accompagneModeProduit": false,
